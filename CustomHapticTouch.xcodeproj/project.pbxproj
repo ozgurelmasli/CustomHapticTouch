@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043718862574FD55003BC467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718852574FD55003BC467 /* AppDelegate.swift */; };
+		043718882574FD55003BC467 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718872574FD55003BC467 /* SceneDelegate.swift */; };
+		0437188A2574FD55003BC467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718892574FD55003BC467 /* ViewController.swift */; };
+		0437188D2574FD55003BC467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0437188B2574FD55003BC467 /* Main.storyboard */; };
+		0437188F2574FD57003BC467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0437188E2574FD57003BC467 /* Assets.xcassets */; };
+		043718922574FD57003BC467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043718902574FD57003BC467 /* LaunchScreen.storyboard */; };
+		0437189D2574FD57003BC467 /* CustomHapticTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437189C2574FD57003BC467 /* CustomHapticTouchTests.swift */; };
+		043718A82574FD57003BC467 /* CustomHapticTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718A72574FD57003BC467 /* CustomHapticTouchUITests.swift */; };
+		043718BA2574FD98003BC467 /* HapticTouchEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718B92574FD98003BC467 /* HapticTouchEvent.swift */; };
+		043718C22574FDD1003BC467 /* HapticTouchEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043718C12574FDD1003BC467 /* HapticTouchEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043718992574FD57003BC467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0437187A2574FD55003BC467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043718812574FD55003BC467;
+			remoteInfo = CustomHapticTouch;
+		};
+		043718A42574FD57003BC467 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0437187A2574FD55003BC467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043718812574FD55003BC467;
+			remoteInfo = CustomHapticTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043718822574FD55003BC467 /* CustomHapticTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomHapticTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043718852574FD55003BC467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		043718872574FD55003BC467 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		043718892574FD55003BC467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0437188C2574FD55003BC467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0437188E2574FD57003BC467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		043718912574FD57003BC467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		043718932574FD57003BC467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043718982574FD57003BC467 /* CustomHapticTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomHapticTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0437189C2574FD57003BC467 /* CustomHapticTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHapticTouchTests.swift; sourceTree = "<group>"; };
+		0437189E2574FD57003BC467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043718A32574FD57003BC467 /* CustomHapticTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomHapticTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043718A72574FD57003BC467 /* CustomHapticTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHapticTouchUITests.swift; sourceTree = "<group>"; };
+		043718A92574FD57003BC467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043718B92574FD98003BC467 /* HapticTouchEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticTouchEvent.swift; sourceTree = "<group>"; };
+		043718C12574FDD1003BC467 /* HapticTouchEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticTouchEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0437187F2574FD55003BC467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043718952574FD57003BC467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043718A02574FD57003BC467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043718792574FD55003BC467 = {
+			isa = PBXGroup;
+			children = (
+				043718842574FD55003BC467 /* CustomHapticTouch */,
+				0437189B2574FD57003BC467 /* CustomHapticTouchTests */,
+				043718A62574FD57003BC467 /* CustomHapticTouchUITests */,
+				043718832574FD55003BC467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043718832574FD55003BC467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043718822574FD55003BC467 /* CustomHapticTouch.app */,
+				043718982574FD57003BC467 /* CustomHapticTouchTests.xctest */,
+				043718A32574FD57003BC467 /* CustomHapticTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043718842574FD55003BC467 /* CustomHapticTouch */ = {
+			isa = PBXGroup;
+			children = (
+				043718B82574FD6F003BC467 /* CustomHapticTouch */,
+				043718852574FD55003BC467 /* AppDelegate.swift */,
+				043718872574FD55003BC467 /* SceneDelegate.swift */,
+				043718892574FD55003BC467 /* ViewController.swift */,
+				0437188B2574FD55003BC467 /* Main.storyboard */,
+				0437188E2574FD57003BC467 /* Assets.xcassets */,
+				043718902574FD57003BC467 /* LaunchScreen.storyboard */,
+				043718932574FD57003BC467 /* Info.plist */,
+			);
+			path = CustomHapticTouch;
+			sourceTree = "<group>";
+		};
+		0437189B2574FD57003BC467 /* CustomHapticTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				0437189C2574FD57003BC467 /* CustomHapticTouchTests.swift */,
+				0437189E2574FD57003BC467 /* Info.plist */,
+			);
+			path = CustomHapticTouchTests;
+			sourceTree = "<group>";
+		};
+		043718A62574FD57003BC467 /* CustomHapticTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				043718A72574FD57003BC467 /* CustomHapticTouchUITests.swift */,
+				043718A92574FD57003BC467 /* Info.plist */,
+			);
+			path = CustomHapticTouchUITests;
+			sourceTree = "<group>";
+		};
+		043718B82574FD6F003BC467 /* CustomHapticTouch */ = {
+			isa = PBXGroup;
+			children = (
+				043718B92574FD98003BC467 /* HapticTouchEvent.swift */,
+				043718C12574FDD1003BC467 /* HapticTouchEnum.swift */,
+			);
+			path = CustomHapticTouch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043718812574FD55003BC467 /* CustomHapticTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043718AC2574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouch" */;
+			buildPhases = (
+				0437187E2574FD55003BC467 /* Sources */,
+				0437187F2574FD55003BC467 /* Frameworks */,
+				043718802574FD55003BC467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomHapticTouch;
+			productName = CustomHapticTouch;
+			productReference = 043718822574FD55003BC467 /* CustomHapticTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043718972574FD57003BC467 /* CustomHapticTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043718AF2574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouchTests" */;
+			buildPhases = (
+				043718942574FD57003BC467 /* Sources */,
+				043718952574FD57003BC467 /* Frameworks */,
+				043718962574FD57003BC467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0437189A2574FD57003BC467 /* PBXTargetDependency */,
+			);
+			name = CustomHapticTouchTests;
+			productName = CustomHapticTouchTests;
+			productReference = 043718982574FD57003BC467 /* CustomHapticTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		043718A22574FD57003BC467 /* CustomHapticTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043718B22574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouchUITests" */;
+			buildPhases = (
+				0437189F2574FD57003BC467 /* Sources */,
+				043718A02574FD57003BC467 /* Frameworks */,
+				043718A12574FD57003BC467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043718A52574FD57003BC467 /* PBXTargetDependency */,
+			);
+			name = CustomHapticTouchUITests;
+			productName = CustomHapticTouchUITests;
+			productReference = 043718A32574FD57003BC467 /* CustomHapticTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0437187A2574FD55003BC467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					043718812574FD55003BC467 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					043718972574FD57003BC467 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 043718812574FD55003BC467;
+					};
+					043718A22574FD57003BC467 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 043718812574FD55003BC467;
+					};
+				};
+			};
+			buildConfigurationList = 0437187D2574FD55003BC467 /* Build configuration list for PBXProject "CustomHapticTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043718792574FD55003BC467;
+			productRefGroup = 043718832574FD55003BC467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043718812574FD55003BC467 /* CustomHapticTouch */,
+				043718972574FD57003BC467 /* CustomHapticTouchTests */,
+				043718A22574FD57003BC467 /* CustomHapticTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043718802574FD55003BC467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043718922574FD57003BC467 /* LaunchScreen.storyboard in Resources */,
+				0437188F2574FD57003BC467 /* Assets.xcassets in Resources */,
+				0437188D2574FD55003BC467 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043718962574FD57003BC467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043718A12574FD57003BC467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0437187E2574FD55003BC467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437188A2574FD55003BC467 /* ViewController.swift in Sources */,
+				043718862574FD55003BC467 /* AppDelegate.swift in Sources */,
+				043718882574FD55003BC467 /* SceneDelegate.swift in Sources */,
+				043718BA2574FD98003BC467 /* HapticTouchEvent.swift in Sources */,
+				043718C22574FDD1003BC467 /* HapticTouchEnum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043718942574FD57003BC467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0437189D2574FD57003BC467 /* CustomHapticTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0437189F2574FD57003BC467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043718A82574FD57003BC467 /* CustomHapticTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0437189A2574FD57003BC467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043718812574FD55003BC467 /* CustomHapticTouch */;
+			targetProxy = 043718992574FD57003BC467 /* PBXContainerItemProxy */;
+		};
+		043718A52574FD57003BC467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043718812574FD55003BC467 /* CustomHapticTouch */;
+			targetProxy = 043718A42574FD57003BC467 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0437188B2574FD55003BC467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0437188C2574FD55003BC467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043718902574FD57003BC467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043718912574FD57003BC467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043718AA2574FD57003BC467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		043718AB2574FD57003BC467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043718AD2574FD57003BC467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		043718AE2574FD57003BC467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		043718B02574FD57003BC467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomHapticTouch.app/CustomHapticTouch";
+			};
+			name = Debug;
+		};
+		043718B12574FD57003BC467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomHapticTouch.app/CustomHapticTouch";
+			};
+			name = Release;
+		};
+		043718B32574FD57003BC467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomHapticTouch;
+			};
+			name = Debug;
+		};
+		043718B42574FD57003BC467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2FENB68MY;
+				INFOPLIST_FILE = CustomHapticTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.diamondstudio.CustomHapticTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomHapticTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0437187D2574FD55003BC467 /* Build configuration list for PBXProject "CustomHapticTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043718AA2574FD57003BC467 /* Debug */,
+				043718AB2574FD57003BC467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043718AC2574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043718AD2574FD57003BC467 /* Debug */,
+				043718AE2574FD57003BC467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043718AF2574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043718B02574FD57003BC467 /* Debug */,
+				043718B12574FD57003BC467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043718B22574FD57003BC467 /* Build configuration list for PBXNativeTarget "CustomHapticTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043718B32574FD57003BC467 /* Debug */,
+				043718B42574FD57003BC467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0437187A2574FD55003BC467 /* Project object */;
+}
